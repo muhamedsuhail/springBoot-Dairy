@@ -1,20 +1,24 @@
 package com.demo.dairy.web.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Positive;
 import java.util.UUID;
 
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 public class MilkDTO {
-
+    @NotNull
     private UUID id;
+    @NotBlank
     private String milkName;
+    @NotBlank
     private String milkType;
+    @Positive
     private Long upc;
 }
