@@ -7,12 +7,12 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 import java.util.UUID;
 
-@Getter
-@Setter
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 public class MilkDTO {
+
     @NotNull
     private UUID id;
     @NotBlank

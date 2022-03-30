@@ -1,0 +1,12 @@
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/web/controller/v2/MilkControllerV2.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/services/v2/MilkServiceV2.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/web/model/v2/MilkDTOV2.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/web/mappers/MilkMapper.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/SpringBootDairyApplication.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/web/model/MilkDTO.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/domain/Milk.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/services/MilkServiceImpl.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/services/v2/MilkServiceV2Impl.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/services/MilkService.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/web/controller/MilkController.java
+/home/muhamedsuhail/Suhail/Practice/microservices/springBoot-Microservices/springBoot-Dairy/src/main/java/com/demo/dairy/web/model/v2/MilkTypeEnum.java

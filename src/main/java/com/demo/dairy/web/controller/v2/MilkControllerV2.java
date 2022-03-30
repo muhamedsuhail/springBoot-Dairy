@@ -5,10 +5,14 @@ import com.demo.dairy.web.model.v2.MilkDTOV2;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
 import java.util.UUID;
 
+@Validated
 @RestController
 @RequestMapping("/api/v2/milk")
 public class MilkControllerV2 {
@@ -26,7 +30,7 @@ public class MilkControllerV2 {
     }
 
     @PostMapping
-    public ResponseEntity handlePost(@RequestBody MilkDTOV2 milkDTOv2) {
+    public ResponseEntity handlePost(@Valid @NotNull @RequestBody MilkDTOV2 milkDTOv2) {
 
         MilkDTOV2 saveDTO = milkServiceV2.saveNewMilk(milkDTOv2);
         HttpHeaders headers = new HttpHeaders();
@@ -37,7 +41,7 @@ public class MilkControllerV2 {
 
     @PutMapping("/{milkId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void handleUpdate(@PathVariable("milkId") UUID milkId, MilkDTOV2 milkDTOv2) {
+    public void handleUpdate(@Valid @NotNull @PathVariable("milkId") UUID milkId, MilkDTOV2 milkDTOv2) {
 
         milkServiceV2.updateMilkById(milkId, milkDTOv2);
     }
